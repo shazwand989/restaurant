@@ -61,6 +61,14 @@
                      </a>
                  </li>
                  <li class="nav-item">
+                     <a href="menu-list.php" class="nav-link <?= $title == 'Menu' ? 'active' : '' ?>">
+                         <i class="nav-icon fas fa-utensils"></i>
+                         <p>
+                             Menu
+                         </p>
+                     </a>
+                 </li>
+                 <li class="nav-item">
                      <a href="#logout.php" class="nav-link" onclick="logout()">
                          <i class="nav-icon fas fa-sign-out-alt"></i>
                          <p>

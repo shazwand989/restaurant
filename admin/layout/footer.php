@@ -1,10 +1,10 @@
 <!-- Main Footer -->
 <footer class="main-footer">
     <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">+60 11-1670 0813
+    <div class="float-right d-none d-sm-inline">
         Developed by <a href="http://wa.me/601116700813" target="_blank">~Qin</a>
     </div>
-    <strong>© 2021 <a href="../index.php"><?= SITE_NAME ?></a>.</strong> All rights reserved.
+    <strong>© 2024 <a href="../index.php"><?= SITE_NAME ?></a>.</strong> All rights reserved.
 </footer>
 </div>
 <!-- ./wrapper -->
