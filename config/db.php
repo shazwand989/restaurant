@@ -9,7 +9,7 @@ define('DB_PASSWORD', '');
 define('DB_DATABASE', 'db_restaurant');
 
 // SITE URL
-define('SITE_URL', 'http://localhost:8080/');
+define('SITE_URL', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/');
 
 // SITE NAME
 define('SITE_NAME', 'Restaurant Politeknik Kuala Terengganu');
@@ -24,3 +24,4 @@ if (!$conn) {
 
 
 include_once 'functions.php';
+include_once 'model.php';

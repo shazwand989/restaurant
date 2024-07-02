@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS `restaurant` (
     `restaurant_image` varchar(255) NULL,
     `restaurant_created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `restaurant_updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (`id`),
+    PRIMARY KEY (`restaurant_id`),
     FOREIGN KEY (`restaurant_state_id`) REFERENCES `states` (`state_id`)
 );
 
@@ -91,7 +91,7 @@ INSERT
         `restaurant_state_id`,
         `restaurant_postcode`,
         `restaurant_phone`,
-        `restaurant_email`,
+        `restaurant_email`
     )
 VALUES
     (

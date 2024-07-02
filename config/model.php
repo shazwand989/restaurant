@@ -1,0 +1,12 @@
+<?php require __DIR__ . '/../model/Database.php'; ?>
+<?php require __DIR__ . '/../model/states.php'; ?>
+<?php require __DIR__ . '/../model/Users.php'; ?>
+<?php require __DIR__ . '/../model/ForgotPassword.php'; ?>
+<?php require __DIR__ . '/../model/Restaurant.php'; ?>
+<?php require __DIR__ . '/../model/Category.php'; ?>
+<?php require __DIR__ . '/../model/CategorySub.php'; ?>
+<?php require __DIR__ . '/../model/Menu.php'; ?>
+<?php require __DIR__ . '/../model/MenuSub.php'; ?>
+<?php require __DIR__ . '/../model/Order.php'; ?>
+<?php require __DIR__ . '/../model/OrderDetail.php'; ?>
+<?php require __DIR__ . '/../model/OrderDetailSub.php'; ?>
