@@ -9,7 +9,7 @@ define('DB_PASSWORD', '');
 define('DB_DATABASE', 'db_restaurant');
 
 // SITE URL
-define('SITE_URL', 'http://localhost/restaurant/');
+define('SITE_URL', 'http://localhost:8080/');
 
 // SITE NAME
 define('SITE_NAME', 'Restaurant Politeknik Kuala Terengganu');

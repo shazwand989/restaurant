@@ -9,7 +9,9 @@ define('MAIL_FROM', MAIL_USERNAME);
 define('MAIL_FROM_NAME', 'Admin - ' . SITE_NAME);
 define('MAIL_SMTP_SECURE', 'tls');
 
-require '../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
+
+
 
 // Include PHPMailer autoloader
 use PHPMailer\PHPMailer\PHPMailer;
